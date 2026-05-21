@@ -424,4 +424,30 @@
   font-size: 14px;
   opacity: 0.7;
 }
+/* Style for the feedback form */
 
+.feedback-form {
+  position: relative;
+  width: 400px;
+  min-width: 200px;
+  height: auto;
+  background: blueviolet;
+  border-radius: 20px;
+  text-align: center;
+}
+.feedback-form:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px red;
+  transition: all 0.5s ease;
+}
+
+.feedbackheading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: orange;
+}
+.feedbackheading:hover {
+  color: blueviolet;
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
